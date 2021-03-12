@@ -10,7 +10,8 @@ function createWindow() {
         height: 600,
         webPreferences: {
             nodeIntegration: true
-        }
+        },
+        autoHideMenuBar: true
     });
 
     let url = `file://${path.join(__dirname, '/dist/index.html')}`;
